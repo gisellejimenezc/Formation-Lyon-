@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+   <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
+   <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New llama</title>
+</head>
+<body>
+
+<div class="container">
+
+<spring:url value="/processForm" var="processUrl"/>
+<form:form method="post" action="${processUrl}" modelAttribute="lla">
+	<table>
+		<tr>
+			<td><form:input path="id" type="hidden"/>
+		</tr>
+		<tr>
+			<spring:hasBindErrors name="lla">
+				<c:set var="errorClass" value="border:1px solid red;"></c:set>  <!--C'est just pour donner un style aux errors, mais c'est mieux de le faire dans le fichier css -->
+			</spring:hasBindErrors>
+			<td><form:label path="name">Name</form:label></td>
+			<td><form:input path="name" /></td>
+			<td><form:errors path="name" type="text" style="${errorClass}"/></td> <!--C'est pour afficher le message d'error dans la webpage -->
+		</tr>
+		<tr>
+			<td><input type="submit" value="New llama" ></td>
+		</tr>
+	</table>
+</form:form>
+
+	
+
+</div>
+</body>
+</html>

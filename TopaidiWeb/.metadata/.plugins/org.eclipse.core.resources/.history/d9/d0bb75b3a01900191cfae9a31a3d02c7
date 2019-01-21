@@ -1,0 +1,53 @@
+package topaidi.app.controller;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import topaidi.app.dao.BrainDao;
+import topaidi.app.dao.CategoryDao;
+import topaidi.app.dao.IdeaDao;
+import topaidi.app.model.persons.Brain;
+
+@Controller
+
+public class RankingController {
+
+	@Autowired
+	BrainDao bDao;
+	@Autowired
+	IdeaDao iDao;
+		
+		
+	@GetMapping ("/brain/{id}/rankings")
+	public String rankings(@PathVariable(value="id") int id, HttpSession session, Model model) {
+		Object isConnected = session.getAttribute("isConnected");
+		if (isConnected == null) {
+			return "redirect:/login";
+		} else {
+			boolean c = (boolean)isConnected;
+			if(!c) {
+				return "redirect:/login";
+			}
+		}
+		
+		Brain brain = (Brain)session.getAttribute("person");
+		model.addAttribute("rankingTop10", iDao.getRankingTop10());
+		model.addAttribute("rankingBuzz10", iDao.getRankingBuzz10());
+		model.addAttribute("rankingBrains", bDao.getRankingBrain());
+		
+		return "/brain/rankings";
+	}
+	
+	@PostMapping ("/brain/{id}/rankings") 
+	public String rankingsShow(@PathVariable(value="id") int id, HttpSession session, Model model) {
+		return "/brain/rankings";
+	}
+		
+}

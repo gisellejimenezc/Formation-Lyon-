@@ -1,0 +1,5 @@
+package topaidi.app.model.temp;
+
+public class RankBrain {
+
+}

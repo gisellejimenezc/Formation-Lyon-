@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <bean id="fender" class="com.monapp.model.Guitar" />
+    <bean id="pianito" class="com.monapp.model.Piano" />
+    <bean id="musicien1" class="com.monapp.model.Guitariste" >
+    	<property name="name" value="Jean"/>
+    	<property name="instrument" ref="fender"/>
+    </bean>
+    <bean id="musicien2" class="com.monapp.model.Guitariste" >
+    	<property name="name" value="Francisco"/>
+    	<property name="instrument" ref="fender"/>
+    </bean>
+    
+    
+</beans>

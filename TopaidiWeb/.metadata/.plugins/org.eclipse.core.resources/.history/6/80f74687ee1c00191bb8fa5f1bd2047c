@@ -1,0 +1,21 @@
+package topaidi.app.model.temp;
+
+import topaidi.app.model.persons.Brain;
+
+public class RankBrain {
+	
+	private Brain brain;
+	
+	private int numberIdeas;
+
+	public RankBrain() {
+	}
+
+	public RankBrain(Brain brain, int numberIdeas) {
+		this.brain = brain;
+		this.numberIdeas = numberIdeas;
+	}
+	
+	
+
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.monapp"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="mavenSpringArtist"/>
+			<item value="mavenSpring"/>
+			<item value="mavenSpringTP"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="CompanyServlet"/>
+			<item value="TP13-12HeritageInterface2"/>
+			<item value="TP17-12JDBC_JeuTest"/>
+			<item value="TP17-12JDBC_Jeu"/>
+			<item value="JeuServlet"/>
+			<item value="TP03-01"/>
+			<item value="MaPremiereServlet"/>
+			<item value="TP19-12Jeu"/>
+			<item value="TP19-12JPA"/>
+			<item value="JDBC_Maven"/>
+			<item value="TP18-12JDBC_Maven"/>
+		</list>
+		<list key="name">
+			<item value="CompanyServlet"/>
+			<item value="JeuJDBC"/>
+			<item value="JeuServlet"/>
+			<item value="MaPremiereServlet"/>
+			<item value="JeuJPA"/>
+			<item value="TestJPA"/>
+			<item value="Myproject"/>
+		</list>
+		<list key="artifactId">
+			<item value="CompanyServlet"/>
+			<item value="TP13-12HeritageInterface2"/>
+			<item value="TP17-12JDBC_JeuTest"/>
+			<item value="TP17-12JDBC_Jeu"/>
+			<item value="JeuServlet"/>
+			<item value="TP03-01"/>
+			<item value="MaPremiereServlet"/>
+			<item value="TP19-12Jeu"/>
+			<item value="TP19-12JPA"/>
+			<item value="JDBC_Maven"/>
+			<item value="TP18-12JDBC_Maven"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\HB\eclipse-workspace\mavenSpring\src\main\webapp\WEB-INF\views\include"/>
+			<item value="C:\Users\HB\eclipse-workspace\mavenbeginconfig"/>
+			<item value="C:\Users\HB\eclipse-workspace\mavenbeginconfig\src\main\webapp\WEB-INF\views\jsp\hello.jsp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

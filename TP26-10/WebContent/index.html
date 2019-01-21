@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style>
+		body {
+			font-family: "Verdana";
+			background-color: linen;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<figure>	
+			<img alt="" src="images/gc.jpg" height="200px" alt="Grand Canyon">
+			<figcaption>Bienvenue à la belle vue</figcaption>
+		</figure>
+	</header>
+
+	<nav id="accueil">
+		<h3>Menu</h3>
+		<ul>
+			<li><a href="#accueil">Accueil</a></li>
+			<li><a href="articles.html">Liste des articles</a>
+				<ul>
+					<li><a href="categories.html">Par categorie</a></li>
+					<li><a href="prix.html">Par prix</a></li>
+				</ul>
+			</li>
+			<li><a href="nous.html">A propos</a></li>
+			<li><a href="contact.html">Contact</a></li>		
+		</ul>
+	</nav>
+	
+	<nav>
+	<a href="#accueil">Accueil</a>
+	>
+	<a href="#formulaire">Inscription</a>
+	>
+	Ajouter
+	</nav>
+	
+	<h1>Formulaire d'inscription</h1>
+	Ce formulaire a pour but de :
+	<ul>
+		<li>Vous inscrire</li>
+		<li>Vous permettre de recevoir les denières offres</li>
+		<li>Rejoindre une communauté</li>
+		<li>Voler vos données personnelles et les vendre</li>
+		<li>Vous faire croire qu'on vous apprécie</li>
+	</ul>
+	
+	Si vous ne souhaitez pas vous inscrire, vous pouvez revenir à <a href="#accueil">l'accueil</a>. On insistera plus tard.
+
+	<form id="formulaire" action="" method="GET">
+	
+		<label for="nom" name="nom">Nom</label>
+		<input id="nom" name="nom" type="text" value=""><br>
+		
+		<label for="prenom" name="prenom">Prenom</label>
+		<input id="prenom" name="prenom" type="text" value=""><br>
+		
+		<label for="date" name="date">Date de naissance</label>
+		<input id="date" name="date" type="date" value=""><br>
+		
+		<label for="description" name="desc">Description</label>
+		<textarea id="description" name="desc" rows="5" cols="30"></textarea><br>
+		
+		<label for="nationalite">Nationalité</label>
+		<select id="nationalite" name="nationalite">
+			<option selected="selected">Liste de pays</option>
+			<option>France</option>
+			<option>Colombie</option>
+			<option>USA</option>
+		</select><br>
+				
+		<label name="gender"> Sex</label>
+		<input type="radio" name="gender" value="male"> Masculin<br>
+  		<input type="radio" name="gender" value="female"> Feminin<br>
+			
+		<label name="musique">Musique</label>
+		<input type="checkbox" name="musique" value="Rock"> Rock<br>
+  		<input type="checkbox" name="musique" value="Pop"> Pop<br>
+  		<input type="checkbox" name="musique" value="Hiphop"> Hiphop<br>
+  		<input type="checkbox" name="musique" value="Classique"> Classique<br>
+		
+				
+		<br><button type="reset"> Reset </button>
+		<br><button type="submit"> OK </button>
+		
+		
+		</form>
+
+
+	<br><footer>Copyright 2018 <a href="GJimenez.html">G.Jiménez</a></footer>
+</body>
+</html>

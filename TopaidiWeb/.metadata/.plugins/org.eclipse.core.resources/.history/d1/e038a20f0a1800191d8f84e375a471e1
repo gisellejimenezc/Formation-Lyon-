@@ -1,0 +1,5 @@
+package topaidi.app.validator;
+
+public class IdeaValidator {
+
+}

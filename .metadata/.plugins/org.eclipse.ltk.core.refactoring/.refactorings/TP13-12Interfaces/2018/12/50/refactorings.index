@@ -1,0 +1,7 @@
+1544690028213	Rename package 'com.immobiliere.main'
+1544690070923	Rename package 'com.realState.main'
+1544690079970	Rename package 'com.realState.model'
+1544690746021	Encapsulate field 'make'
+1544691525612	Rename method 'finsih'
+1544692088521	Rename method 'vendre'
+1544692117300	Rename method 'acheter'

@@ -1,0 +1,25 @@
+INDEX VERSION 1.131
+C:\Users\HB\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1711005792.index
+\JeuServlet\src
+C:\Users\HB\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\545341788.index
+\MaPremiereServlet\src
+C:\Users\HB\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4059191404.index
+\mavenSpringArtist\src\main\java
+C:\Users\HB\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\568460657.index
+\JeuServlet\src
+C:\Users\HB\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1748955429.index
+\mavenSpring\src\main\java
+C:\Users\HB\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2512031066.index
+\mavenSpringArtist\src\main\java
+C:\Users\HB\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1319570687.index
+\mavenSpringArtist\src\main\java
+C:\Users\HB\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1108000928.index
+\mavenbeginconfig\src\main\java
+C:\Users\HB\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2550728502.index
+\mavenSpring\src\main\java
+C:\Users\HB\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3809720176.index
+\mavenbeginconfig\src\main\java
+C:\Users\HB\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3296189959.index
+\mavenSpringArtist\src\main\java
+C:\Users\HB\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1351411109.index
+\mavenSpring\src\main\java

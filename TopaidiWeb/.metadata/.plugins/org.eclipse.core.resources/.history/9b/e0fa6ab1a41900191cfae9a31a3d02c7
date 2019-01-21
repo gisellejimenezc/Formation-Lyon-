@@ -1,0 +1,30 @@
+package topaidi.app.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import topaidi.app.model.ideas.Comment;
+import topaidi.app.model.ideas.Idea;
+import topaidi.app.model.ideas.Vote;
+import topaidi.app.model.persons.Brain;
+import topaidi.app.model.reports.ReportComment;
+import topaidi.app.model.reports.ReportIdea;
+
+public interface BrainDao extends GenericDao<Brain, Integer>{
+
+	public List<Idea> getAllIdeas(Integer id);
+	public List<Comment> getAllComments(Integer id);
+	public List<Vote> getAllVotes(Integer id);
+	public List<ReportIdea> getAllReportsIdea(Integer id);
+	public List<ReportComment> getAllReportsComment(Integer id);
+	public Brain getBrainByLogin(String email);
+<<<<<<< HEAD
+	public int getNombreIdeas(Integer id);
+	public ArrayList<Brain> getRankingBrain();
+	public ArrayList<Brain> getRankingBrain3();
+=======
+	public boolean alreadyVoted(Idea idea, Brain brain);
+>>>>>>> 8216537bd61e39e04f4ab3658c93717caa2b6f79
+	
+	
+}

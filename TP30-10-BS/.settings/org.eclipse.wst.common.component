@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TP30-10-BS">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <property name="context-root" value="TP30-10-BS"/>
+    </wb-module>
+</project-modules>
